@@ -5,16 +5,34 @@
 
 */
 body{
-    background-color: rgb(205, 255, 203);
+    background-color: #d6fde9;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color: rgb(6, 190, 0);
+    color: #1e402f;
 }
 #principal{
     text-align: center;
-    background-color: white;
+    background-color:#3c805e;
+    color: white;
 }
 h2{
-    color: rgb(51, 77,49);
+    color: #3c805e;
+}
+
+.basico{
+    color:#3c805e;
+}
+
+
+.intermediario{
+    color: rgb(211, 211, 4);
+}
+
+.avancado{
+    color: rgb(187, 2, 2);
+}
+
+.destaque{
+    background-color: #c5c56070;
 }
