@@ -27,14 +27,22 @@
     a:active{
         color: yellow;
     }
+    a::after{
+        content: '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgrey;
+    }
+
+    
 
 </style>
 <body>
     <h1> Personalizando links</h1>
     <ul>
         <li><a href="https://github.com/nataliapaulinobat?tab=overview&from=2023-02-01&to=2023-02-03" target="_blank">Repositorio Gihtub</a></li>
-        <li><a href="https://www.youtube.com/@CursoemVideo">Canal do youtube</a></li>
-        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVideo</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
     </ul>
 </body>
 </html>
