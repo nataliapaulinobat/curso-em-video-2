@@ -12,15 +12,21 @@
     --cor3:#2fa866;
     --cor4:#1a5c37;
     --cor5:#063d1e;
+
     --font0:Arial,verdana,helvetica, sans-serif;
     --font1:'Bebas neue',cursive;
     --font2:'Android', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
     background-color: var(--cor0);
     font-family: var(--font0);
 }
+
 header{
     background-color: var(--cor4);
 
