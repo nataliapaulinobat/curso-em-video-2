@@ -5,7 +5,6 @@
     src: url('../fontes/idroid.otf');
     font-weight: normal;
 }
-
 :root{
     --cor0:#c5ebd6;
     --cor1:#83e1ad;
@@ -22,11 +21,27 @@ body{
     background-color: var(--cor0);
     font-family: var(--font0);
 }
+header{
+    background-color: var(--cor4);
+
+}
 
 header > h1{
-    color: var(--cor3);
+    color: white;
     font-family: var(--font1);
 
+}
+
+header > p{ 
+    color: white;
+}
+
+
+nav{
+    background-color: var(--cor5);
+}
+main{
+    background-color: white;
 }
 main h1{
     color: var(--cor4);
@@ -35,3 +50,8 @@ main h1{
 main h2{
  font-family: var(--font2);
 }
+footer{
+    background-color: #063d1e;
+    color: white;
+}
+
