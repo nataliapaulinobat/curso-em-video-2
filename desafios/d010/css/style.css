@@ -12,14 +12,3 @@
     --font1:'Bebas neue',cursive;
     --font2:'Bebas neue',cursive;
 }
-
-*{
-    margin: 0px;
-    line-height: 1.2em;
-}
-
-body{
-    font-family: var(--font0);
-    color: var(--cor0);
-    background-color: var(--cor1);
-}
