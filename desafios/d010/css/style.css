@@ -60,8 +60,22 @@ header > p{
 nav{
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.548);
 }
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav  > a:hover{
+    background-color: var(--cor3);
+    border-radius: 5px;
+    color: var(--cor5);
+}
+
 main{
     background-color: white;
     padding: 20px;
